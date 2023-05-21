@@ -19,6 +19,6 @@ app.register(fastifyJwt, {
 app.register(authRoutes);
 app.register(memoriesRoutes);
 
-app.listen({ port, host }).then(() => {
+app.listen({ port }).then(() => {
   console.log(`🚀 Running on ${host}:${port}`);
 });
